@@ -1,0 +1,3404 @@
+[
+  {
+    "day": "Saturday",
+    "room": "09B-08L",
+    "slot": "8-11",
+    "course": "CSE221-02",
+    "faculty": "ARD,ANV"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-08L",
+    "slot": "11-2",
+    "course": "CSE221-03",
+    "faculty": "ARD,ASRF"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-08L",
+    "slot": "2-5",
+    "course": "CSE221-08",
+    "faculty": "ARD,MZW"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-09L",
+    "slot": "8-11",
+    "course": "CSE221-09",
+    "faculty": "CMHH,MZW"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-09L",
+    "slot": "11-2",
+    "course": "CSE221-10",
+    "faculty": "TAP,MZW"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-09L",
+    "slot": "2-5",
+    "course": "CSE221-11",
+    "faculty": "FDZ,SJM"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-10L",
+    "slot": "8-11",
+    "course": "CSE221-12",
+    "faculty": "ASRF,FDZ"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-10L",
+    "slot": "11-2",
+    "course": "CSE221-13",
+    "faculty": "AKHD,MRIA"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-10L",
+    "slot": "2-5",
+    "course": "CSE221-16",
+    "faculty": "ANWE,CSYR"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-11L",
+    "slot": "8-11",
+    "course": "CSE221-17",
+    "faculty": "AROY,CESF"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-11L",
+    "slot": "11-2",
+    "course": "CSE221-20",
+    "faculty": "AROY,CESF"
+  },
+  {
+    "day": "Saturday",
+    "room": "09B-11L",
+    "slot": "2-5",
+    "course": "CSE221-21",
+    "faculty": "CSSA,FBAW"
+  },
+  {
+    "day": "Saturday",
+    "room": "09E-21L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "09E-21L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "09E-21L",
+    "slot": "2-5",
+    "course": "CSE460-02",
+    "faculty": "AKJ,ZIZE"
+  },
+  {
+    "day": "Saturday",
+    "room": "09E-22L",
+    "slot": "8-11",
+    "course": "CSE471-04",
+    "faculty": "SADA,AJK"
+  },
+  {
+    "day": "Saturday",
+    "room": "09E-22L",
+    "slot": "11-2",
+    "course": "CSE471-05",
+    "faculty": "CSSN,AJK"
+  },
+  {
+    "day": "Saturday",
+    "room": "09E-22L",
+    "slot": "2-5",
+    "course": "CSE471-10",
+    "faculty": "ART,CSSN"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-24L",
+    "slot": "8-11",
+    "course": "CSE447-01",
+    "faculty": "AKHD,SJM"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-24L",
+    "slot": "11-2",
+    "course": "CSE447-02",
+    "faculty": "FFU,FDZ"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-24L",
+    "slot": "2-5",
+    "course": "CSE447-03",
+    "faculty": "FFU,CKMH"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-25L",
+    "slot": "8-11",
+    "course": "CSE421-07 / CSE421-19",
+    "faculty": "RDS,WBH / RDS,WBH"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-25L",
+    "slot": "11-2",
+    "course": "CSE421-05 / CSE421-06",
+    "faculty": "CQAE,CPTH / CQAE,CPTH"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-25L",
+    "slot": "2-5",
+    "course": "CSE421-03 / CSE421-04",
+    "faculty": "RDS,WBH / RDS,WBH"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-26L",
+    "slot": "8-11",
+    "course": "CSE422-03",
+    "faculty": "RRH,AHC"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-26L",
+    "slot": "11-2",
+    "course": "CSE422-09",
+    "faculty": "LBBH,KKS"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-26L",
+    "slot": "2-5",
+    "course": "CSE422-22",
+    "faculty": "MHDE,AHC"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-27L",
+    "slot": "8-11",
+    "course": "CSE422-23",
+    "faculty": "PLN,IRZ"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-27L",
+    "slot": "11-2",
+    "course": "CSE423-01 / CSE423-02",
+    "faculty": "MZFZ,CAPN / MZFZ,CAPN"
+  },
+  {
+    "day": "Saturday",
+    "room": "09F-27L",
+    "slot": "2-5",
+    "course": "CSE423-05 / CSE423-06",
+    "faculty": "MZFZ,NMP / MZFZ,NMP"
+  },
+  {
+    "day": "Saturday",
+    "room": "10E-27L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "10E-27L",
+    "slot": "11-2",
+    "course": "CSE420-03 / CSE420-04",
+    "faculty": "SUE,RKBR / SUE,RKBR"
+  },
+  {
+    "day": "Saturday",
+    "room": "10E-27L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "10G-33L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "10G-33L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "10G-33L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "10G-34L",
+    "slot": "8-11",
+    "course": "CSE330-03",
+    "faculty": "SMDS,KBS"
+  },
+  {
+    "day": "Saturday",
+    "room": "10G-34L",
+    "slot": "11-2",
+    "course": "CSE330-04",
+    "faculty": "ALB,RFTS"
+  },
+  {
+    "day": "Saturday",
+    "room": "10G-34L",
+    "slot": "2-5",
+    "course": "CSE330-10",
+    "faculty": "SHBK,KBS"
+  },
+  {
+    "day": "Saturday",
+    "room": "11B-20L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "11B-20L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "11B-20L",
+    "slot": "2-5",
+    "course": "CSE103-01",
+    "faculty": "FDM,SLAR"
+  },
+  {
+    "day": "Saturday",
+    "room": "12B-20L",
+    "slot": "8-11",
+    "course": "CSE250-06A / CSE250-06B",
+    "faculty": "FFR,MHY / ALSM,ARA"
+  },
+  {
+    "day": "Saturday",
+    "room": "12B-20L",
+    "slot": "11-2",
+    "course": "CSE251-01A / CSE251-01B",
+    "faculty": "SEF,HMH / MOM,SHJR"
+  },
+  {
+    "day": "Saturday",
+    "room": "12B-20L",
+    "slot": "2-5",
+    "course": "CSE250-01A / CSE250-01B",
+    "faculty": "MOM,ALSM / ZBH,ARA"
+  },
+  {
+    "day": "Saturday",
+    "room": "12D-26L",
+    "slot": "8-11",
+    "course": "CSE321-25",
+    "faculty": "CNZR,CRHB"
+  },
+  {
+    "day": "Saturday",
+    "room": "12D-26L",
+    "slot": "11-2",
+    "course": "CSE321-26",
+    "faculty": "AHC,KBS"
+  },
+  {
+    "day": "Saturday",
+    "room": "12D-26L",
+    "slot": "2-5",
+    "course": "CSE321-04",
+    "faculty": "CRHB,CNZR"
+  },
+  {
+    "day": "Saturday",
+    "room": "12D-27L",
+    "slot": "8-11",
+    "course": "CSE321-05",
+    "faculty": "CSSA,AHA"
+  },
+  {
+    "day": "Saturday",
+    "room": "12D-27L",
+    "slot": "11-2",
+    "course": "CSE321-06",
+    "faculty": "ZYH,SMKD"
+  },
+  {
+    "day": "Saturday",
+    "room": "12D-27L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-30L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-30L",
+    "slot": "11-2",
+    "course": "CSE341-06",
+    "faculty": "TRZA,CKMH"
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-30L",
+    "slot": "2-5",
+    "course": "CSE341-07",
+    "faculty": "TRZA,NWT"
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-31L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-31L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-31L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-32L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-32L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "12F-32L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-01L",
+    "slot": "8-11",
+    "course": "CSE350-03A",
+    "faculty": "ZBH,AKDB"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-01L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-01L",
+    "slot": "2-5",
+    "course": "CSE251-06A",
+    "faculty": "HMH,FFR"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-02L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-02L",
+    "slot": "11-2",
+    "course": "CSE260-24A",
+    "faculty": "PBK,THR"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-02L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-03L",
+    "slot": "11-2",
+    "course": "CSE260-24B",
+    "faculty": "ADD,CAYR"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-04L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-04L",
+    "slot": "11-2",
+    "course": "CSE260-22A",
+    "faculty": "NFF,AHA"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT10-04L",
+    "slot": "2-5",
+    "course": "CSE260-20B",
+    "faculty": "ANKH,CAPN"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-01L",
+    "slot": "8-11",
+    "course": "CSE350-03B",
+    "faculty": "NUR,RFQ"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-01L",
+    "slot": "11-2",
+    "course": "CSE260-22B",
+    "faculty": "MAO,NTN"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-01L",
+    "slot": "2-5",
+    "course": "CSE251-06B",
+    "faculty": "MHY,AKDB"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-03L",
+    "slot": "8-11",
+    "course": "CSE101-06",
+    "faculty": "SLAR,CQAE"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-03L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-03L",
+    "slot": "2-5",
+    "course": "EEE362-01",
+    "faculty": "MHM"
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-04L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-04L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Saturday",
+    "room": "FT11-04L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-08L",
+    "slot": "8-11",
+    "course": "CSE220-22",
+    "faculty": "ASRF,FDM"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-08L",
+    "slot": "11-2",
+    "course": "CSE220-09",
+    "faculty": "RFTS,ASMN"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-08L",
+    "slot": "2-5",
+    "course": "CSE220-10",
+    "faculty": "CSSN,AJK"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-09L",
+    "slot": "8-11",
+    "course": "CSE220-02",
+    "faculty": "ASMN,SKIB"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-09L",
+    "slot": "11-2",
+    "course": "CSE220-03",
+    "faculty": "WBH,KKS"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-09L",
+    "slot": "2-5",
+    "course": "CSE220-08",
+    "faculty": "RAK,SKIB"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-10L",
+    "slot": "8-11",
+    "course": "CSE220-11",
+    "faculty": "MZG,ANT"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-10L",
+    "slot": "11-2",
+    "course": "CSE220-12",
+    "faculty": "AIB,FDM"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-10L",
+    "slot": "2-5",
+    "course": "CSE220-13",
+    "faculty": "AJA,MRIA"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-11L",
+    "slot": "8-11",
+    "course": "CSE220-14",
+    "faculty": "ZMD,IRZ"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-11L",
+    "slot": "11-2",
+    "course": "CSE220-15",
+    "faculty": "SLAR,MZG"
+  },
+  {
+    "day": "Sunday",
+    "room": "09B-11L",
+    "slot": "2-5",
+    "course": "CSE220-18",
+    "faculty": "CESF,MAF"
+  },
+  {
+    "day": "Sunday",
+    "room": "09E-21L",
+    "slot": "8-11",
+    "course": "CSE221-01",
+    "faculty": "ARD,CMHQ"
+  },
+  {
+    "day": "Sunday",
+    "room": "09E-21L",
+    "slot": "11-2",
+    "course": "CSE221-04",
+    "faculty": "ARD,AYO"
+  },
+  {
+    "day": "Sunday",
+    "room": "09E-21L",
+    "slot": "2-5",
+    "course": "CSE221-15",
+    "faculty": "ARD,CRHB"
+  },
+  {
+    "day": "Sunday",
+    "room": "09E-22L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "09E-22L",
+    "slot": "11-2",
+    "course": "CSE221-19",
+    "faculty": "CAYR,MZW"
+  },
+  {
+    "day": "Sunday",
+    "room": "09E-22L",
+    "slot": "2-5",
+    "course": "CSE221-22",
+    "faculty": "ZLNM,ANWE"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-24L",
+    "slot": "8-11",
+    "course": "CSE221-23",
+    "faculty": "FBAW,SJM"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-24L",
+    "slot": "11-2",
+    "course": "CSE221-14",
+    "faculty": "FGZ,ANK"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-24L",
+    "slot": "2-5",
+    "course": "CSE221-05",
+    "faculty": "CAYR,AYO"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-25L",
+    "slot": "8-11",
+    "course": "CSE221-06",
+    "faculty": "ZLNM,TAP"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-25L",
+    "slot": "11-2",
+    "course": "CSE221-07",
+    "faculty": "KKP,MRIA"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-25L",
+    "slot": "2-5",
+    "course": "CSE423-11 / CSE423-12",
+    "faculty": "NMP,ANT / NMP,ANT"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-26L",
+    "slot": "8-11",
+    "course": "CSE422-08",
+    "faculty": "RRH,AHC"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-26L",
+    "slot": "11-2",
+    "course": "CSE422-19",
+    "faculty": "ZHS,RSS"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-26L",
+    "slot": "2-5",
+    "course": "CSE422-20",
+    "faculty": "SHAH,YND"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-27L",
+    "slot": "8-11",
+    "course": "CSE423-20 / CSE423-25",
+    "faculty": "ANKH,MAHS / ANKH,MAHS"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-27L",
+    "slot": "11-2",
+    "course": "CSE330-06",
+    "faculty": "ALB,ASRF"
+  },
+  {
+    "day": "Sunday",
+    "room": "09F-27L",
+    "slot": "2-5",
+    "course": "CSE330-07",
+    "faculty": "SULT,SADF"
+  },
+  {
+    "day": "Sunday",
+    "room": "10E-27L",
+    "slot": "8-11",
+    "course": "CSE421-18 / CSE421-27",
+    "faculty": "SULT,WBH / SULT,WBH"
+  },
+  {
+    "day": "Sunday",
+    "room": "10E-27L",
+    "slot": "11-2",
+    "course": "CSE420-08 / CSE420-09",
+    "faculty": "SZD,RKBR / SZD,RKBR"
+  },
+  {
+    "day": "Sunday",
+    "room": "10E-27L",
+    "slot": "2-5",
+    "course": "CSE421-21 / CSE421-22",
+    "faculty": "SRJ,MSMA / SRJ,MSMA"
+  },
+  {
+    "day": "Sunday",
+    "room": "10G-33L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "10G-33L",
+    "slot": "11-2",
+    "course": "CSE422-18",
+    "faculty": "DPU,NDT"
+  },
+  {
+    "day": "Sunday",
+    "room": "10G-33L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "10G-34L",
+    "slot": "8-11",
+    "course": "CSE420-02 / CSE420-07",
+    "faculty": "NLAM,SUE / NLAM,SUE"
+  },
+  {
+    "day": "Sunday",
+    "room": "10G-34L",
+    "slot": "11-2",
+    "course": "CSE330-05",
+    "faculty": "SADF,NLAM"
+  },
+  {
+    "day": "Sunday",
+    "room": "10G-34L",
+    "slot": "2-5",
+    "course": "CSE490B-01",
+    "faculty": "ZMD,SJM"
+  },
+  {
+    "day": "Sunday",
+    "room": "11B-20L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "11B-20L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "11B-20L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "12B-20L",
+    "slot": "8-11",
+    "course": "CSE251-07A / CSE251-07B",
+    "faculty": "ZAZ,RAO / AQT,MOM"
+  },
+  {
+    "day": "Sunday",
+    "room": "12B-20L",
+    "slot": "11-2",
+    "course": "CSE250-09A / CSE250-09B",
+    "faculty": "PDS,THL / UTS,SDL"
+  },
+  {
+    "day": "Sunday",
+    "room": "12B-20L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "12D-26L",
+    "slot": "8-11",
+    "course": "CSE321-03",
+    "faculty": "HFN,CAKM"
+  },
+  {
+    "day": "Sunday",
+    "room": "12D-26L",
+    "slot": "11-2",
+    "course": "CSE471-02",
+    "faculty": "AWK,AJK"
+  },
+  {
+    "day": "Sunday",
+    "room": "12D-26L",
+    "slot": "2-5",
+    "course": "CSE471-09",
+    "faculty": "PLN,IRZ"
+  },
+  {
+    "day": "Sunday",
+    "room": "12D-27L",
+    "slot": "8-11",
+    "course": "CSE321-09",
+    "faculty": "CRHB,CNZR"
+  },
+  {
+    "day": "Sunday",
+    "room": "12D-27L",
+    "slot": "11-2",
+    "course": "CSE321-14",
+    "faculty": "CNZR,MAO"
+  },
+  {
+    "day": "Sunday",
+    "room": "12D-27L",
+    "slot": "2-5",
+    "course": "CSE321-02",
+    "faculty": "HFN,MAO"
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-30L",
+    "slot": "8-11",
+    "course": "CSE330-16",
+    "faculty": "AAF,WLV"
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-30L",
+    "slot": "11-2",
+    "course": "CSE440-01 / CSE440-02",
+    "faculty": "MCW,NLH / MCW,NLH"
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-30L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-31L",
+    "slot": "8-11",
+    "course": "CSE341-08",
+    "faculty": "NWT,TRZA"
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-31L",
+    "slot": "11-2",
+    "course": "CSE341-09",
+    "faculty": "RAHA,TRZA"
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-31L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-32L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-32L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "12F-32L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-01L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-01L",
+    "slot": "11-2",
+    "course": "CSE251-09A",
+    "faculty": "SDQ,TAV"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-01L",
+    "slot": "2-5",
+    "course": "CSE250-05A",
+    "faculty": "TAV,FFR"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-02L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-02L",
+    "slot": "11-2",
+    "course": "CSE260-26A",
+    "faculty": "PBK,THR"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-02L",
+    "slot": "2-5",
+    "course": "CSE260-27A",
+    "faculty": "MAJIJ,AWK"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-03L",
+    "slot": "11-2",
+    "course": "CSE260-26B",
+    "faculty": "NFF,SMDS"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-03L",
+    "slot": "2-5",
+    "course": "CSE260-27B",
+    "faculty": "AAF,CAPN"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-04L",
+    "slot": "8-11",
+    "course": "CSE260-25A",
+    "faculty": "SMDS,THR"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-04L",
+    "slot": "11-2",
+    "course": "CSE260-25B",
+    "faculty": "ANKH,CAPN"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT10-04L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-01L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-01L",
+    "slot": "11-2",
+    "course": "CSE251-09B",
+    "faculty": "TSE,FFR"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-01L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-03L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-04L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-04L",
+    "slot": "11-2",
+    "course": "CSE101-01",
+    "faculty": "SBHN,CESF"
+  },
+  {
+    "day": "Sunday",
+    "room": "FT11-04L",
+    "slot": "2-5",
+    "course": "CSE489-01",
+    "faculty": "CPTH,ADR"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-08L",
+    "slot": "8-11",
+    "course": "CSE220-01",
+    "faculty": "ASMN,CESF"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-08L",
+    "slot": "11-2",
+    "course": "CSE220-06",
+    "faculty": "RAK,AYO"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-08L",
+    "slot": "2-5",
+    "course": "CSE220-07",
+    "faculty": "ASMN,ATY"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-09L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "09B-09L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "09B-09L",
+    "slot": "2-5",
+    "course": "CSE220-16",
+    "faculty": "AJA,MRIA"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-10L",
+    "slot": "8-11",
+    "course": "CSE220-17",
+    "faculty": "IRZ,CMHQ"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-10L",
+    "slot": "11-2",
+    "course": "CSE220-19",
+    "faculty": "MNP,ASRF"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-10L",
+    "slot": "2-5",
+    "course": "CSE220-20",
+    "faculty": "SKIB,CSSA"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-11L",
+    "slot": "8-11",
+    "course": "CSE220-21",
+    "faculty": "MZG,FDM"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-11L",
+    "slot": "11-2",
+    "course": "CSE220-04",
+    "faculty": "MZG,SWG"
+  },
+  {
+    "day": "Monday",
+    "room": "09B-11L",
+    "slot": "2-5",
+    "course": "CSE220-05",
+    "faculty": "CESF,ANT"
+  },
+  {
+    "day": "Monday",
+    "room": "09E-21L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "09E-21L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "09E-21L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "09E-22L",
+    "slot": "8-11",
+    "course": "CSE423-08 / CSE423-09",
+    "faculty": "SMUR,SKIB / SMUR,SKIB"
+  },
+  {
+    "day": "Monday",
+    "room": "09E-22L",
+    "slot": "11-2",
+    "course": "CSE321-27",
+    "faculty": "CSSA,AHA"
+  },
+  {
+    "day": "Monday",
+    "room": "09E-22L",
+    "slot": "2-5",
+    "course": "CSE423-13 / CSE423-14",
+    "faculty": "SRU,SOSB / SRU,SOSB"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-24L",
+    "slot": "8-11",
+    "course": "CSE422-10",
+    "faculty": "NWT,MUNR"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-24L",
+    "slot": "11-2",
+    "course": "CSE422-13",
+    "faculty": "ZHS,RSS"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-24L",
+    "slot": "2-5",
+    "course": "CSE422-07",
+    "faculty": "MHDE,YND"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-25L",
+    "slot": "8-11",
+    "course": "CSE421-20 / CSE421-23",
+    "faculty": "MSMA,WBH / MSMA,WBH"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-25L",
+    "slot": "11-2",
+    "course": "CSE421-24 / CSE421-25",
+    "faculty": "AKTD,WBH / AKTD,WBH"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-25L",
+    "slot": "2-5",
+    "course": "CSE422-14",
+    "faculty": "IRZ,RZR"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-26L",
+    "slot": "8-11",
+    "course": "CSE428-04",
+    "faculty": "AHA,CSSA"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-26L",
+    "slot": "11-2",
+    "course": "CSE427-04",
+    "faculty": "CSYR,IRZ"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-26L",
+    "slot": "2-5",
+    "course": "CSE427-07",
+    "faculty": "CQAE,CSAB"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-27L",
+    "slot": "8-11",
+    "course": "CSE427-01 / CSE427-01",
+    "faculty": "CSYR,CSAB / CSYR,CSAB"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-27L",
+    "slot": "11-2",
+    "course": "CSE427-05",
+    "faculty": "RZR,ADU"
+  },
+  {
+    "day": "Monday",
+    "room": "09F-27L",
+    "slot": "2-5",
+    "course": "CSE427-08",
+    "faculty": "DFD,QUZA"
+  },
+  {
+    "day": "Monday",
+    "room": "10E-27L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "10E-27L",
+    "slot": "11-2",
+    "course": "CSE420-10 / CSE420-11",
+    "faculty": "SZD,LRK / SZD,LRK"
+  },
+  {
+    "day": "Monday",
+    "room": "10E-27L",
+    "slot": "2-5",
+    "course": "CSE420-12 / CSE420-13",
+    "faculty": "NLAM,MAF / NLAM,MAF"
+  },
+  {
+    "day": "Monday",
+    "room": "10G-33L",
+    "slot": "8-11",
+    "course": "CSE321-11",
+    "faculty": "ZYH,ANNH"
+  },
+  {
+    "day": "Monday",
+    "room": "10G-33L",
+    "slot": "11-2",
+    "course": "CSE428-02",
+    "faculty": "EHQ,UTS"
+  },
+  {
+    "day": "Monday",
+    "room": "10G-33L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "10G-34L",
+    "slot": "8-11",
+    "course": "CSE330-11",
+    "faculty": "ASRF,AAF"
+  },
+  {
+    "day": "Monday",
+    "room": "10G-34L",
+    "slot": "11-2",
+    "course": "CSE330-14",
+    "faculty": "ARD,SULT"
+  },
+  {
+    "day": "Monday",
+    "room": "10G-34L",
+    "slot": "2-5",
+    "course": "CSE330-15",
+    "faculty": "SULT,MNP"
+  },
+  {
+    "day": "Monday",
+    "room": "11B-20L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "11B-20L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "11B-20L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "12B-20L",
+    "slot": "8-11",
+    "course": "CSE250-03A / CSE250-03B",
+    "faculty": "NFS,RAS / RAO,ZBH"
+  },
+  {
+    "day": "Monday",
+    "room": "12B-20L",
+    "slot": "11-2",
+    "course": "CSE250-11A / CSE250-11B",
+    "faculty": "SDQ,HMH / AQT,MHY"
+  },
+  {
+    "day": "Monday",
+    "room": "12B-20L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "12D-26L",
+    "slot": "8-11",
+    "course": "CSE330-19",
+    "faculty": "ADD,MZW"
+  },
+  {
+    "day": "Monday",
+    "room": "12D-26L",
+    "slot": "11-2",
+    "course": "CSE424-01 / CSE424-02",
+    "faculty": "SBHN,LBBH / SBHN,LBBH"
+  },
+  {
+    "day": "Monday",
+    "room": "12D-26L",
+    "slot": "2-5",
+    "course": "CSE430-01",
+    "faculty": "EHQ,TAV"
+  },
+  {
+    "day": "Monday",
+    "room": "12D-27L",
+    "slot": "8-11",
+    "course": "CSE321-15",
+    "faculty": "HFN,KBS"
+  },
+  {
+    "day": "Monday",
+    "room": "12D-27L",
+    "slot": "11-2",
+    "course": "CSE321-07",
+    "faculty": "BDH,CAKM"
+  },
+  {
+    "day": "Monday",
+    "room": "12D-27L",
+    "slot": "2-5",
+    "course": "CSE321-16",
+    "faculty": "SWV,KBS"
+  },
+  {
+    "day": "Monday",
+    "room": "12F-30L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "12F-30L",
+    "slot": "11-2",
+    "course": "CSE471-11",
+    "faculty": "PLN,AWK"
+  },
+  {
+    "day": "Monday",
+    "room": "12F-30L",
+    "slot": "2-5",
+    "course": "CSE471-12",
+    "faculty": "CSSN,AWK"
+  },
+  {
+    "day": "Monday",
+    "room": "12F-31L",
+    "slot": "8-11",
+    "course": "CSE341-10",
+    "faculty": "CMHH,CABS"
+  },
+  {
+    "day": "Monday",
+    "room": "12F-31L",
+    "slot": "11-2",
+    "course": "CSE341-11",
+    "faculty": "CKMH,TRZA"
+  },
+  {
+    "day": "Monday",
+    "room": "12F-31L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "12F-32L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "12F-32L",
+    "slot": "11-2",
+    "course": "CSE370-17",
+    "faculty": "TMD,NZU"
+  },
+  {
+    "day": "Monday",
+    "room": "12F-32L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-01L",
+    "slot": "8-11",
+    "course": "CSE251-03A",
+    "faculty": "HMH,SDL"
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-01L",
+    "slot": "11-2",
+    "course": "CSE350-01A",
+    "faculty": "PDS,ALSM"
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-01L",
+    "slot": "2-5",
+    "course": "CSE251-11A",
+    "faculty": "ZBH,MHY"
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-02L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-02L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-02L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-03L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-04L",
+    "slot": "8-11",
+    "course": "CSE260-23A",
+    "faculty": "MCW,NQM"
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-04L",
+    "slot": "11-2",
+    "course": "CSE260-23B",
+    "faculty": "CABS,CMHH"
+  },
+  {
+    "day": "Monday",
+    "room": "FT10-04L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-01L",
+    "slot": "8-11",
+    "course": "CSE251-03B",
+    "faculty": "PDS,ALSM"
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-01L",
+    "slot": "11-2",
+    "course": "CSE350-01B",
+    "faculty": "ZAZ,RAO"
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-01L",
+    "slot": "2-5",
+    "course": "CSE251-11B",
+    "faculty": "UTS,RFQ"
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-03L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-03L",
+    "slot": "2-5",
+    "course": "CSE419-01",
+    "faculty": "CRHB,KKP"
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-04L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-04L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Monday",
+    "room": "FT11-04L",
+    "slot": "2-5",
+    "course": "CSE101-04",
+    "faculty": "RBR,TRZA"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-08L",
+    "slot": "8-11",
+    "course": "CSE111-09",
+    "faculty": "ANV,CNFH"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-08L",
+    "slot": "11-2",
+    "course": "CSE111-01",
+    "faculty": "AIB,ATY"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-08L",
+    "slot": "2-5",
+    "course": "CSE111-17",
+    "faculty": "KNILYND"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-09L",
+    "slot": "8-11",
+    "course": "CSE111-05",
+    "faculty": "HBN,AOH"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-09L",
+    "slot": "11-2",
+    "course": "CSE111-06",
+    "faculty": "FGZ,AVB"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-09L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-10L",
+    "slot": "8-11",
+    "course": "CSE111-15",
+    "faculty": "AFA,AVB"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-10L",
+    "slot": "11-2",
+    "course": "CSE111-16",
+    "faculty": "ANK,AFA"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-10L",
+    "slot": "2-5",
+    "course": "CSE428-03",
+    "faculty": "SDQ,MOM"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-11L",
+    "slot": "8-11",
+    "course": "CSE427-09",
+    "faculty": "RRH,CQAE"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-11L",
+    "slot": "11-2",
+    "course": "CSE427-10",
+    "faculty": "CMHH,CQAE"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09B-11L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09E-21L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09E-21L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09E-21L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09E-22L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09E-22L",
+    "slot": "11-2",
+    "course": "CSE423-03 / CSE423-04",
+    "faculty": "SRU,SMUR / SRU,SMUR"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09E-22L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-24L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-24L",
+    "slot": "11-2",
+    "course": "CSE421-15 / CSE421-16",
+    "faculty": "SRJ,NDT / SRJ,NDT"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-24L",
+    "slot": "2-5",
+    "course": "CSE423-07 / CSE423-10",
+    "faculty": "AJA,CAPN / AJA,CAPN"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-25L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-25L",
+    "slot": "11-2",
+    "course": "CSE422-01",
+    "faculty": "ZHS,FFU"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-25L",
+    "slot": "2-5",
+    "course": "CSE421-13 / CSE421-14",
+    "faculty": "SRJ,MSMA / SRJ,MSMA"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-26L",
+    "slot": "8-11",
+    "course": "CSE422-17",
+    "faculty": "MUNR,WHMJ"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-26L",
+    "slot": "11-2",
+    "course": "CSE428-01",
+    "faculty": "TAV,SHJR"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-26L",
+    "slot": "2-5",
+    "course": "CSE422-21",
+    "faculty": "AYO,SHAH"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-27L",
+    "slot": "8-11",
+    "course": "CSE427-02 / CSE427-02",
+    "faculty": "ADU,NLH / ADU,NLH"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-27L",
+    "slot": "11-2",
+    "course": "CSE427-03 / CSE427-03",
+    "faculty": "RZR,NLH / RZR,NLH"
+  },
+  {
+    "day": "Tuesday",
+    "room": "09F-27L",
+    "slot": "2-5",
+    "course": "CSE427-06",
+    "faculty": "DFD,TWK"
+  },
+  {
+    "day": "Tuesday",
+    "room": "10E-27L",
+    "slot": "8-11",
+    "course": "CSE420-01 / CSE420-18",
+    "faculty": "MAF,FMK / MAF,FMK"
+  },
+  {
+    "day": "Tuesday",
+    "room": "10E-27L",
+    "slot": "11-2",
+    "course": "CSE446-01",
+    "faculty": "SMKD,SJM"
+  },
+  {
+    "day": "Tuesday",
+    "room": "10E-27L",
+    "slot": "2-5",
+    "course": "CSE420-16 / CSE420-17",
+    "faculty": "FMK,MAF / FMK,MAF"
+  },
+  {
+    "day": "Tuesday",
+    "room": "10G-33L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "10G-33L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "10G-33L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "10G-34L",
+    "slot": "8-11",
+    "course": "CSE330-01",
+    "faculty": "NTN,MZW"
+  },
+  {
+    "day": "Tuesday",
+    "room": "10G-34L",
+    "slot": "11-2",
+    "course": "CSE330-02",
+    "faculty": "ARD,SADF"
+  },
+  {
+    "day": "Tuesday",
+    "room": "10G-34L",
+    "slot": "2-5",
+    "course": "CSE330-08",
+    "faculty": "AQU,SADF"
+  },
+  {
+    "day": "Tuesday",
+    "room": "11B-20L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "11B-20L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "11B-20L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "12B-20L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "12B-20L",
+    "slot": "11-2",
+    "course": "CSE251-08A / CSE251-08B",
+    "faculty": "PDS,ARPD / SDQ,NFS"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12B-20L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "12D-26L",
+    "slot": "8-11",
+    "course": "CSE321-18",
+    "faculty": "SULT,ASMN"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12D-26L",
+    "slot": "11-2",
+    "course": "CSE321-19",
+    "faculty": "SULT,SWV"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12D-26L",
+    "slot": "2-5",
+    "course": "CSE321-01",
+    "faculty": "CAKM,SMKD"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12D-27L",
+    "slot": "8-11",
+    "course": "CSE321-17",
+    "faculty": "CAKM,HFN"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12D-27L",
+    "slot": "11-2",
+    "course": "CSE341-03",
+    "faculty": "RFTS,HBN"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12D-27L",
+    "slot": "2-5",
+    "course": "CSE341-12",
+    "faculty": "RKN,CKMH"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-30L",
+    "slot": "8-11",
+    "course": "CSE471-13",
+    "faculty": "CABS,AWK"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-30L",
+    "slot": "11-2",
+    "course": "CSE471-14",
+    "faculty": "CABS,AJK"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-30L",
+    "slot": "2-5",
+    "course": "CSE472-01",
+    "faculty": "MAU,UJT"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-31L",
+    "slot": "8-11",
+    "course": "CSE370-16",
+    "faculty": "FZN,STNM"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-31L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-31L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-32L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-32L",
+    "slot": "11-2",
+    "course": "CSE440-03 / CSE440-04",
+    "faculty": "AYO,LBBH / AYO,LBBH"
+  },
+  {
+    "day": "Tuesday",
+    "room": "12F-32L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-01L",
+    "slot": "8-11",
+    "course": "CSE250-10B",
+    "faculty": "RAO,ARPD"
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-01L",
+    "slot": "11-2",
+    "course": "CSE250-08A",
+    "faculty": "FFR,AKDB"
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-01L",
+    "slot": "2-5",
+    "course": "CSE251-10A",
+    "faculty": "TAV,NUR"
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-02L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-02L",
+    "slot": "11-2",
+    "course": "CSE260-21A",
+    "faculty": "MVH,RDS"
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-02L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-03L",
+    "slot": "11-2",
+    "course": "CSE260-21B",
+    "faculty": "CSSN,AHA"
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-04L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-04L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT10-04L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-01L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-01L",
+    "slot": "11-2",
+    "course": "CSE250-08B",
+    "faculty": "AKJ,ARA"
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-01L",
+    "slot": "2-5",
+    "course": "CSE251-10B",
+    "faculty": "AKJ,ALSM"
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-03L",
+    "slot": "11-2",
+    "course": "CSE101-02",
+    "faculty": "CESF,AQJ"
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-04L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-04L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Tuesday",
+    "room": "FT11-04L",
+    "slot": "2-5",
+    "course": "CSE391-01",
+    "faculty": "ADR,AQJ"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-08L",
+    "slot": "8-11",
+    "course": "CSE110-02",
+    "faculty": "MSILSSMUR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-08L",
+    "slot": "11-2",
+    "course": "CSE110-03",
+    "faculty": "SMUR,RKBM"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-08L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-09L",
+    "slot": "8-11",
+    "course": "CSE110-06",
+    "faculty": "ANNH,MVH"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-09L",
+    "slot": "11-2",
+    "course": "CSE110-08",
+    "faculty": "AFA,KNI"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-09L",
+    "slot": "2-5",
+    "course": "CSE110-14",
+    "faculty": "WLV,MVH"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-10L",
+    "slot": "8-11",
+    "course": "CSE110-13",
+    "faculty": "NTN,RKBM"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-10L",
+    "slot": "11-2",
+    "course": "CSE110-04",
+    "faculty": "MSI,CAKM"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-10L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-11L",
+    "slot": "8-11",
+    "course": "CSE111-14",
+    "faculty": "CNFH,AOH"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-11L",
+    "slot": "11-2",
+    "course": "CSE111-08",
+    "faculty": "TMD,ADU"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09B-11L",
+    "slot": "2-5",
+    "course": "CSE111-07",
+    "faculty": "AFA,CRHB"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09E-21L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "09E-21L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "09E-21L",
+    "slot": "2-5",
+    "course": "CSE111-13",
+    "faculty": "ATY,CSSA"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09E-22L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "09E-22L",
+    "slot": "11-2",
+    "course": "CSE460-01",
+    "faculty": "SDL,UPM"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09E-22L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-24L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-24L",
+    "slot": "11-2",
+    "course": "CSE423-19 / CSE423-21",
+    "faculty": "SOSB,MZFZ / SOSB,MZFZ"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-24L",
+    "slot": "2-5",
+    "course": "CSE423-22",
+    "faculty": "MHM,ANT"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-25L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-25L",
+    "slot": "11-2",
+    "course": "CSE421-10 / CSE421-17",
+    "faculty": "AKTD,RKBR / AKTD,RKBR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-25L",
+    "slot": "2-5",
+    "course": "CSE421-08 / CSE421-09",
+    "faculty": "RKBR,THR / RKBR,THR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-26L",
+    "slot": "8-11",
+    "course": "CSE422-02",
+    "faculty": "MUNR,RZR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-26L",
+    "slot": "11-2",
+    "course": "CSE422-04",
+    "faculty": "DPU,SWG"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-26L",
+    "slot": "2-5",
+    "course": "CSE422-05",
+    "faculty": "WHMJ,FFU"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-27L",
+    "slot": "8-11",
+    "course": "CSE111-10",
+    "faculty": "AVB,QUZA"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-27L",
+    "slot": "11-2",
+    "course": "CSE111-11",
+    "faculty": "AVB,FEK"
+  },
+  {
+    "day": "Wednesday",
+    "room": "09F-27L",
+    "slot": "2-5",
+    "course": "CSE422-06",
+    "faculty": "YND,RZR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "10E-27L",
+    "slot": "8-11",
+    "course": "CSE423-15 / CSE423-16",
+    "faculty": "MHM,ANKH / MHM,ANKH"
+  },
+  {
+    "day": "Wednesday",
+    "room": "10E-27L",
+    "slot": "11-2",
+    "course": "CSE420-14 / CSE420-15",
+    "faculty": "LRK,RDS / LRK,RDS"
+  },
+  {
+    "day": "Wednesday",
+    "room": "10E-27L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "10G-33L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "10G-33L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "10G-33L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "10G-34L",
+    "slot": "8-11",
+    "course": "CSE330-17",
+    "faculty": "WLV,SMKD"
+  },
+  {
+    "day": "Wednesday",
+    "room": "10G-34L",
+    "slot": "11-2",
+    "course": "CSE330-18",
+    "faculty": "MNP,ALB"
+  },
+  {
+    "day": "Wednesday",
+    "room": "10G-34L",
+    "slot": "2-5",
+    "course": "CSE330-20",
+    "faculty": "ADD,NTN"
+  },
+  {
+    "day": "Wednesday",
+    "room": "11B-20L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "11B-20L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "11B-20L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "12B-20L",
+    "slot": "8-11",
+    "course": "CSE251-04A",
+    "faculty": "SDQ,SEF"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12B-20L",
+    "slot": "11-2",
+    "course": "CSE250-04A / CSE250-04B",
+    "faculty": "PDS,HMH / SDQ,SEF"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12B-20L",
+    "slot": "2-5",
+    "course": "CSE250-12A / CSE250-12B",
+    "faculty": "HMH,ARA / ZIZE,SDL"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12D-26L",
+    "slot": "8-11",
+    "course": "CSE321-10",
+    "faculty": "SULT,KBS"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12D-26L",
+    "slot": "11-2",
+    "course": "CSE321-08",
+    "faculty": "BDH,KBS"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12D-26L",
+    "slot": "2-5",
+    "course": "CSE321-12",
+    "faculty": "SMKD,MAO"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12D-27L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "12D-27L",
+    "slot": "11-2",
+    "course": "CSE321-13",
+    "faculty": "SULT,MAO"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12D-27L",
+    "slot": "2-5",
+    "course": "CSE111-03",
+    "faculty": "CAKM,HBN"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-30L",
+    "slot": "8-11",
+    "course": "CSE341-02",
+    "faculty": "NWT,HBN"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-30L",
+    "slot": "11-2",
+    "course": "CSE341-05",
+    "faculty": "RAHA,NWT"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-30L",
+    "slot": "2-5",
+    "course": "CSE370-14",
+    "faculty": "SHRR,MAU"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-31L",
+    "slot": "8-11",
+    "course": "CSE370-15",
+    "faculty": "NZU,STNM"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-31L",
+    "slot": "11-2",
+    "course": "CSE420-19 / CSE420-20",
+    "faculty": "FMK,AKHD / FMK,AKHD"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-31L",
+    "slot": "2-5",
+    "course": "CSE423-17 / CSE423-18",
+    "faculty": "MAHS,NMP / MAHS,NMP"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-32L",
+    "slot": "8-11",
+    "course": "CSE471-08",
+    "faculty": "WHMJ,CSYR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-32L",
+    "slot": "11-2",
+    "course": "CSE471-03",
+    "faculty": "WHMJ,CSYR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "12F-32L",
+    "slot": "2-5",
+    "course": "CSE111-02",
+    "faculty": "TAW,AOH"
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-01L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-01L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-01L",
+    "slot": "2-5",
+    "course": "CSE350-02A",
+    "faculty": "SDU,ZAZ"
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-02L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-02L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-02L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-03L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-04L",
+    "slot": "8-11",
+    "course": "CSE260-03A",
+    "faculty": "TWK,NQM"
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-04L",
+    "slot": "11-2",
+    "course": "CSE260-04A",
+    "faculty": "RFF,CNZR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT10-04L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-01L",
+    "slot": "8-11",
+    "course": "CSE260-03B",
+    "faculty": "PRC,NMP"
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-01L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-01L",
+    "slot": "2-5",
+    "course": "CSE350-02B",
+    "faculty": "TAV,UPM"
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-03L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-04L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-04L",
+    "slot": "11-2",
+    "course": "CSE101-05",
+    "faculty": "SBHN,SLAR"
+  },
+  {
+    "day": "Wednesday",
+    "room": "FT11-04L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-08L",
+    "slot": "8-11",
+    "course": "CSE110-01",
+    "faculty": "AOH,ANNH"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-08L",
+    "slot": "11-2",
+    "course": "CSE110-05",
+    "faculty": "MAF,AOH"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-08L",
+    "slot": "2-5",
+    "course": "CSE110-09",
+    "faculty": "ANNH,CAYR"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-09L",
+    "slot": "8-11",
+    "course": "CSE110-10",
+    "faculty": "WLV,ANT"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-09L",
+    "slot": "11-2",
+    "course": "CSE110-07",
+    "faculty": "NQM,NTN"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-09L",
+    "slot": "2-5",
+    "course": "CSE110-11",
+    "faculty": "WLV,DFD"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-10L",
+    "slot": "8-11",
+    "course": "CSE481-01",
+    "faculty": "SDS,NFS"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-10L",
+    "slot": "11-2",
+    "course": "CSE402-01",
+    "faculty": "SDAS,NFS"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-10L",
+    "slot": "2-5",
+    "course": "CSE110-12",
+    "faculty": "CSAB,CAKM"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-11L",
+    "slot": "8-11",
+    "course": "CSE110-15",
+    "faculty": "CAKM,CSAB"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-11L",
+    "slot": "11-2",
+    "course": "CSE110-16",
+    "faculty": "ANNH,SLAR"
+  },
+  {
+    "day": "Thursday",
+    "room": "09B-11L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "09E-21L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "09E-21L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "09E-21L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "09E-22L",
+    "slot": "8-11",
+    "course": "CSE471-07",
+    "faculty": "SADA,AJK"
+  },
+  {
+    "day": "Thursday",
+    "room": "09E-22L",
+    "slot": "11-2",
+    "course": "CSE471-01",
+    "faculty": "AQU,KZMN"
+  },
+  {
+    "day": "Thursday",
+    "room": "09E-22L",
+    "slot": "2-5",
+    "course": "CSE471-06",
+    "faculty": "ART,CKMH"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-24L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-24L",
+    "slot": "11-2",
+    "course": "CSE423-23 / CSE423-24",
+    "faculty": "ANT,CAPN / ANT,CAPN"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-24L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-25L",
+    "slot": "8-11",
+    "course": "CSE421-01 / CSE421-02",
+    "faculty": "WBH,THR / WBH,THR"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-25L",
+    "slot": "11-2",
+    "course": "CSE421-26 / CSE421-28",
+    "faculty": "CQAE,CPTH / CQAE,CPTH"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-25L",
+    "slot": "2-5",
+    "course": "CSE421-11 / CSE421-12",
+    "faculty": "CPTH,THR / CPTH,THR"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-26L",
+    "slot": "8-11",
+    "course": "CSE422-11",
+    "faculty": "PLN,CMHH"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-26L",
+    "slot": "11-2",
+    "course": "CSE422-12",
+    "faculty": "LBBH,AJK"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-26L",
+    "slot": "2-5",
+    "course": "CSE422-15",
+    "faculty": "ANV,CSSA"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-27L",
+    "slot": "8-11",
+    "course": "CSE422-16",
+    "faculty": "RRH,FMK"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-27L",
+    "slot": "11-2",
+    "course": "CSE110-17",
+    "faculty": "ANV,CNFH"
+  },
+  {
+    "day": "Thursday",
+    "room": "09F-27L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "10E-27L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "10E-27L",
+    "slot": "11-2",
+    "course": "CSE420-05 / CSE420-06",
+    "faculty": "FMK,AKHD / FMK,AKHD"
+  },
+  {
+    "day": "Thursday",
+    "room": "10E-27L",
+    "slot": "2-5",
+    "course": "CSE370-18",
+    "faculty": "CSYR,NQM"
+  },
+  {
+    "day": "Thursday",
+    "room": "10G-33L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "10G-33L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "10G-33L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "10G-34L",
+    "slot": "8-11",
+    "course": "CSE321-20",
+    "faculty": "SMKD,KBS"
+  },
+  {
+    "day": "Thursday",
+    "room": "10G-34L",
+    "slot": "11-2",
+    "course": "CSE321-21",
+    "faculty": "SMKD,KBS"
+  },
+  {
+    "day": "Thursday",
+    "room": "10G-34L",
+    "slot": "2-5",
+    "course": "CSE321-22",
+    "faculty": "CRHB,SJM"
+  },
+  {
+    "day": "Thursday",
+    "room": "11B-20L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "11B-20L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "11B-20L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "12B-20L",
+    "slot": "8-11",
+    "course": "CSE250-07A / CSE250-07B",
+    "faculty": "MHY,RFQ / ZBH,AKDB"
+  },
+  {
+    "day": "Thursday",
+    "room": "12B-20L",
+    "slot": "11-2",
+    "course": "CSE251-05A / CSE251-05B",
+    "faculty": "SDS,PDS / SDQ,SEF"
+  },
+  {
+    "day": "Thursday",
+    "room": "12B-20L",
+    "slot": "2-5",
+    "course": "CSE250-02A / CSE250-02B",
+    "faculty": "PDS,SEF / SDQ,AKDB"
+  },
+  {
+    "day": "Thursday",
+    "room": "12D-26L",
+    "slot": "8-11",
+    "course": "CSE321-23",
+    "faculty": "CNFH,NMP"
+  },
+  {
+    "day": "Thursday",
+    "room": "12D-26L",
+    "slot": "11-2",
+    "course": "CSE321-24",
+    "faculty": "SJM,NMP"
+  },
+  {
+    "day": "Thursday",
+    "room": "12D-26L",
+    "slot": "2-5",
+    "course": "CSE490C-01",
+    "faculty": "SDAS,NFS"
+  },
+  {
+    "day": "Thursday",
+    "room": "12D-27L",
+    "slot": "8-11",
+    "course": "CSE330-09",
+    "faculty": "CPTH,MZFZ"
+  },
+  {
+    "day": "Thursday",
+    "room": "12D-27L",
+    "slot": "11-2",
+    "course": "CSE330-12",
+    "faculty": "RFTS,MZFZ"
+  },
+  {
+    "day": "Thursday",
+    "room": "12D-27L",
+    "slot": "2-5",
+    "course": "CSE330-13",
+    "faculty": "AQU,SHBK"
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-30L",
+    "slot": "8-11",
+    "course": "CSE341-04",
+    "faculty": "HBN,CKMH"
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-30L",
+    "slot": "11-2",
+    "course": "CSE341-01",
+    "faculty": "CABS,CKMH"
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-30L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-31L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-31L",
+    "slot": "11-2",
+    "course": "CSE370-13",
+    "faculty": "MAHS,STNM"
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-31L",
+    "slot": "2-5",
+    "course": "CSE370-11",
+    "faculty": "RAHA,CABS"
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-32L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-32L",
+    "slot": "11-2",
+    "course": "CSE111-04",
+    "faculty": "TAW,RKBM"
+  },
+  {
+    "day": "Thursday",
+    "room": "12F-32L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-01L",
+    "slot": "8-11",
+    "course": "CSE251-02A",
+    "faculty": "NUR,RAS"
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-01L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-01L",
+    "slot": "2-5",
+    "course": "CSE350-04A",
+    "faculty": "UPM,TSE"
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-02L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-02L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-02L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-03L",
+    "slot": "8-11",
+    "course": "CSE260-01B",
+    "faculty": "NFF,MHM"
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-03L",
+    "slot": "11-2",
+    "course": "CSE260-02A",
+    "faculty": "NFF,LMI"
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-04L",
+    "slot": "8-11",
+    "course": "CSE260-01A",
+    "faculty": "DZK,ADD"
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-04L",
+    "slot": "11-2",
+    "course": "CSE260-02B",
+    "faculty": "DZK,PBK"
+  },
+  {
+    "day": "Thursday",
+    "room": "FT10-04L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-01L",
+    "slot": "8-11",
+    "course": "CSE251-02B",
+    "faculty": "UPM,SHJR"
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-01L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-01L",
+    "slot": "2-5",
+    "course": "CSE350-04B",
+    "faculty": "ZAZ,RFQ"
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-03L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-03L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-03L",
+    "slot": "2-5",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-04L",
+    "slot": "8-11",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-04L",
+    "slot": "11-2",
+    "course": "",
+    "faculty": ""
+  },
+  {
+    "day": "Thursday",
+    "room": "FT11-04L",
+    "slot": "2-5",
+    "course": "CSE101-03",
+    "faculty": "SLAR,CQAE"
+  }
+]
