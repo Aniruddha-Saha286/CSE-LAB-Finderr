@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab Routine Checker</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #f8f9fa; color: #333; font-family: 'Segoe UI', system-ui, sans-serif; }
+.container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+h1 { font-size: 1.75rem; color: #1a1a2e; margin-bottom: 0.25rem; }
+.subtitle { color: #666; margin-bottom: 2rem; font-size: 0.9rem; }
+.semester { display: inline-block; background: #1a1a2e; color: #fff; padding: 0.15rem 0.75rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; margin-left: 8px; vertical-align: middle; }
+.card { background: #fff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.field label { display: block; font-size: 0.8rem; font-weight: 600; color: #555; margin-bottom: 4px; }
+.field select { width: 100%; padding: 0.5rem 0.75rem; border: 1px solid #d0d0d0; border-radius: 8px; font-size: 0.9rem; background: #fff; cursor: pointer; }
+.btn-row { display: flex; gap: 0.5rem; }
+.btn { padding: 0.5rem 1.5rem; border: none; border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+.btn-primary { background: #1a1a2e; color: #fff; }
+.btn-primary:disabled { background: #ccc; cursor: not-allowed; }
+.btn-secondary { background: #fff; color: #1a1a2e; border: 1px solid #1a1a2e; }
+.btn-secondary:disabled { background: #e0e0e0; color: #999; border-color: #ccc; cursor: not-allowed; }
+.result { border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+.result.free { background: #e6f7e6; border: 1px solid #b7eb8f; }
+.result.occupied { background: #fde8e8; border: 1px solid #f5a5a5; }
+.result h2 { font-size: 1.2rem; margin-bottom: 8px; }
+.result.free h2 { color: #389e0d; }
+.result.occupied h2 { color: #cf1322; }
+.result .detail { color: #555; font-size: 0.95rem; line-height: 1.6; }
+.result .meta { margin-top: 8px; color: #888; font-size: 0.85rem; }
+.schedule { background: #fff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 1.5rem; overflow-x: auto; }
+.schedule h2 { font-size: 1.1rem; color: #1a1a2e; margin-bottom: 1rem; }
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+th { padding: 0.6rem 0.75rem; text-align: left; border-bottom: 2px solid #e0e0e0; color: #555; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; background: #f5f5f5; }
+td { padding: 0.6rem 0.75rem; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+td:first-child { font-weight: 600; background: #fafafa; }
+.free-text { color: #389e0d; font-weight: 600; }
+.course-text { font-weight: 600; color: #cf1322; }
+.faculty-text { font-size: 0.75rem; color: #888; }
+.loading { text-align: center; color: #999; padding: 3rem 0; }
+.lab-toggle { margin-left: 8px; font-size: 0.75rem; font-weight: 400; color: #999; cursor: pointer; }
+.lab-toggle input { margin-right: 4px; }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container" id="app">
+  <h1>Lab Routine Checker <span class="semester">Spring 26</span></h1>
+  <p class="subtitle">Check room availability &mdash; Sat to Thu &middot; Friday off</p>
+
+  <div class="card">
+    <div class="grid">
+      <div class="field">
+        <label for="day">Day</label>
+        <select id="day"><option value="">Select day</option></select>
+      </div>
+      <div class="field">
+        <label for="room">
+          Room
+          <span class="lab-toggle">
+            <label><input type="checkbox" id="labOnly" checked> Lab only</label>
+          </span>
+        </label>
+        <select id="room"><option value="">Select room</option></select>
+      </div>
+      <div class="field">
+        <label for="slot">Time Slot</label>
+        <select id="slot"><option value="">Select slot</option></select>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-primary" id="checkBtn" disabled>Check Availability</button>
+      <button class="btn btn-secondary" id="weeklyBtn" disabled>Weekly View</button>
+    </div>
+  </div>
+
+  <div id="resultArea"></div>
+  <div id="weeklyArea"></div>
+  <div id="loadingText" class="loading">Loading routine data...</div>
+</div>
+
+<script>
+const DAYS = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'];
+const SLOTS = ['8-11', '11-2', '2-5'];
+
+let data = [];
+let rooms = [];
+
+const $ = (id) => document.getElementById(id);
+const daySel = $('day');
+const roomSel = $('room');
+const slotSel = $('slot');
+const checkBtn = $('checkBtn');
+const weeklyBtn = $('weeklyBtn');
+const resultArea = $('resultArea');
+const weeklyArea = $('weeklyArea');
+const loadingText = $('loadingText');
+const labOnly = $('labOnly');
+
+function populateSelect(sel, options, placeholder) {
+  sel.innerHTML = `<option value="">${placeholder}</option>` + options.map(o => `<option value="${o}">${o}</option>`).join('');
+}
+
+populateSelect(daySel, DAYS.map(d => d.substring(0,3)), 'Select day');
+daySel.addEventListener('change', updateResult);
+
+populateSelect(slotSel, SLOTS, 'Select slot');
+slotSel.addEventListener('change', updateResult);
+
+function getFilteredRooms() {
+  const filtered = labOnly.checked ? rooms.filter(r => r.endsWith('L')) : rooms;
+  return filtered;
+}
+
+function renderRooms() {
+  const filtered = getFilteredRooms();
+  const current = roomSel.value;
+  populateSelect(roomSel, filtered, 'Select room');
+  if (filtered.includes(current)) roomSel.value = current;
+  else roomSel.value = '';
+  updateBtns();
+}
+
+labOnly.addEventListener('change', () => { renderRooms(); updateResult(); });
+roomSel.addEventListener('change', () => { updateResult(); updateBtns(); });
+
+function updateBtns() {
+  const hasAll = daySel.value && roomSel.value && slotSel.value;
+  checkBtn.disabled = !hasAll;
+  weeklyBtn.disabled = !roomSel.value;
+}
+
+function updateResult() {
+  resultArea.innerHTML = '';
+  weeklyArea.innerHTML = '';
+  updateBtns();
+}
+
+checkBtn.addEventListener('click', () => {
+  const day = DAYS.find(d => d.startsWith(daySel.value));
+  const room = roomSel.value;
+  const slot = slotSel.value;
+  if (!day || !room || !slot) return;
+
+  const entry = data.find(e => e.day === day && e.room === room && e.slot === slot);
+  const free = !entry || (!entry.course && !entry.faculty);
+
+  if (free) {
+    resultArea.innerHTML = `<div class="result free"><h2>FREE</h2><div class="meta">${day} &middot; ${room} &middot; ${slot}</div></div>`;
+  } else {
+    resultArea.innerHTML = `<div class="result occupied"><h2>OCCUPIED</h2><div class="detail"><strong>${entry.course}</strong> taken by <strong>${entry.faculty}</strong></div><div class="meta">${day} &middot; ${room} &middot; ${slot}</div></div>`;
+  }
+  weeklyArea.innerHTML = '';
+});
+
+weeklyBtn.addEventListener('click', () => {
+  const room = roomSel.value;
+  if (!room) return;
+
+  let html = `<div class="schedule"><h2>Weekly Schedule &mdash; ${room}</h2><table><thead><tr><th>Day</th>`;
+  SLOTS.forEach(s => { html += `<th>${s}</th>`; });
+  html += `</tr></thead><tbody>`;
+
+  DAYS.forEach(day => {
+    html += `<tr><td>${day.substring(0,3)}</td>`;
+    SLOTS.forEach(slot => {
+      const entry = data.find(e => e.day === day && e.room === room && e.slot === slot);
+      if (entry && entry.course) {
+        html += `<td><div class="course-text">${entry.course}</div><div class="faculty-text">${entry.faculty}</div></td>`;
+      } else {
+        html += `<td><span class="free-text">FREE</span></td>`;
+      }
+    });
+    html += `</tr>`;
+  });
+
+  html += `</tbody></table></div>`;
+  weeklyArea.innerHTML = html;
+  resultArea.innerHTML = '';
+});
+
+fetch('data/routine.json')
+  .then(r => r.json())
+  .then(d => {
+    data = d;
+    rooms = [...new Set(d.map(e => e.room))].sort();
+    renderRooms();
+    loadingText.style.display = 'none';
+  })
+  .catch(() => {
+    loadingText.textContent = 'Failed to load routine data.';
+  });
+</script>
+</body>
+</html>
