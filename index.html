@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab Routine Checker — Spring 26</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8edf5 100%);
+  color: #1e293b;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+.container { max-width: 920px; margin: 0 auto; padding: 2rem 1rem; }
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  color: #fff;
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  box-shadow: 0 4px 20px rgba(30, 41, 59, 0.2);
+}
+.header-left h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
+.header-left p { font-size: 0.85rem; color: #94a3b8; margin-top: 2px; }
+.header-right {
+  background: rgba(255,255,255,0.12);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 4px 16px rgba(0,0,0,0.04);
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.25rem; margin-bottom: 1.25rem; }
+.field label {
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 0.78rem; font-weight: 600; color: #475569; margin-bottom: 6px;
+  text-transform: uppercase; letter-spacing: 0.03em;
+}
+.field select {
+  width: 100%; padding: 0.6rem 0.85rem;
+  border: 1.5px solid #e2e8f0; border-radius: 10px;
+  font-size: 0.9rem; background: #fff; cursor: pointer;
+  color: #1e293b; transition: border-color 0.15s;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2394a3b8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 0.75rem center; background-size: 10px;
+}
+.field select:focus { outline: none; border-color: #6366f1; box-shadow: 0 0 0 3px rgba(99,102,241,0.1); }
+
+/* Toggle */
+.lab-toggle { font-size: 0.7rem; font-weight: 500; color: #64748b; text-transform: none; letter-spacing: 0; cursor: pointer; }
+.lab-toggle input { margin-right: 3px; accent-color: #6366f1; }
+
+/* Buttons */
+.btn-row { display: flex; gap: 0.75rem; }
+.btn {
+  padding: 0.6rem 1.6rem; border: none; border-radius: 10px;
+  font-size: 0.9rem; font-weight: 600; cursor: pointer;
+  transition: all 0.15s; font-family: inherit;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #1e293b, #334155);
+  color: #fff; box-shadow: 0 2px 8px rgba(30,41,59,0.25);
+}
+.btn-primary:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(30,41,59,0.3); }
+.btn-primary:disabled { background: #cbd5e1; box-shadow: none; cursor: not-allowed; transform: none; }
+
+.btn-secondary {
+  background: #fff; color: #1e293b;
+  border: 1.5px solid #cbd5e1;
+}
+.btn-secondary:hover:not(:disabled) { border-color: #94a3b8; background: #f8fafc; }
+.btn-secondary:disabled { background: #f1f5f9; color: #94a3b8; border-color: #e2e8f0; cursor: not-allowed; }
+
+/* Result */
+.result {
+  border-radius: 14px; padding: 1.5rem 1.75rem; margin-bottom: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.result.free {
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+  border: 1px solid #86efac;
+}
+.result.occupied {
+  background: linear-gradient(135deg, #fef2f2, #fee2e2);
+  border: 1px solid #fca5a5;
+}
+.result .badge {
+  display: inline-block; padding: 0.25rem 1rem; border-radius: 20px;
+  font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+.result.free .badge { background: #166534; color: #fff; }
+.result.occupied .badge { background: #991b1b; color: #fff; }
+.result .detail { color: #334155; font-size: 0.95rem; line-height: 1.6; }
+.result .meta { margin-top: 10px; color: #64748b; font-size: 0.82rem; }
+
+/* Weekly table */
+.schedule {
+  background: #fff; border-radius: 16px; padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05), 0 4px 16px rgba(0,0,0,0.04);
+  overflow-x: auto; margin-bottom: 1.5rem;
+}
+.schedule h2 { font-size: 1.1rem; color: #1e293b; margin-bottom: 1rem; font-weight: 700; }
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+thead th {
+  padding: 0.7rem 0.85rem; text-align: left;
+  border-bottom: 2px solid #e2e8f0;
+  color: #64748b; font-size: 0.78rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.04em;
+  background: #f8fafc;
+}
+thead th:first-child { border-radius: 8px 0 0 0; }
+thead th:last-child { border-radius: 0 8px 0 0; }
+tbody td {
+  padding: 0.65rem 0.85rem; border-bottom: 1px solid #f1f5f9;
+  vertical-align: top;
+}
+tbody tr:last-child td { border-bottom: none; }
+tbody td:first-child { font-weight: 600; background: #fafafa; color: #334155; }
+.free-text { color: #16a34a; font-weight: 700; }
+.course-text { font-weight: 600; color: #dc2626; font-size: 0.82rem; }
+.faculty-text { font-size: 0.72rem; color: #64748b; margin-top: 2px; }
+
+/* Loading */
+.loading { text-align: center; color: #64748b; padding: 4rem 0; font-size: 0.9rem; }
+
+/* Status dot */
+.status-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+.status-dot.free { background: #22c55e; }
+.status-dot.occupied { background: #ef4444; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; }
+  .header { flex-direction: column; align-items: flex-start; }
+  .btn-row { flex-wrap: wrap; }
+  .btn { flex: 1; text-align: center; }
+}
+</style>
+</head>
+<body>
+<div class="container" id="app">
+  <div class="header">
+    <div class="header-left">
+      <h1>Lab Routine Checker</h1>
+      <p>Check lab room availability &middot; Sat &ndash; Thu (Fri off)</p>
+    </div>
+    <div class="header-right">Semester: Spring 26</div>
+  </div>
+
+  <div class="card">
+    <div class="grid">
+      <div class="field">
+        <label for="day">Day</label>
+        <select id="day"><option value="">Select day</option></select>
+      </div>
+      <div class="field">
+        <label for="room">
+          Room
+          <span class="lab-toggle"><input type="checkbox" id="labOnly" checked> Lab only</span>
+        </label>
+        <select id="room"><option value="">Select room</option></select>
+      </div>
+      <div class="field">
+        <label for="slot">Time Slot</label>
+        <select id="slot"><option value="">Select slot</option></select>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-primary" id="checkBtn" disabled>Check Availability</button>
+      <button class="btn btn-secondary" id="weeklyBtn" disabled>Weekly View</button>
+    </div>
+  </div>
+
+  <div id="resultArea"></div>
+  <div id="weeklyArea"></div>
+  <div id="loadingText" class="loading">Loading routine data...</div>
+</div>
+
+<script>
+const DAYS = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'];
+const SLOTS = ['8-11', '11-2', '2-5'];
+
+let data = [];
+let rooms = [];
+
+const $ = (id) => document.getElementById(id);
+const daySel = $('day');
+const roomSel = $('room');
+const slotSel = $('slot');
+const checkBtn = $('checkBtn');
+const weeklyBtn = $('weeklyBtn');
+const resultArea = $('resultArea');
+const weeklyArea = $('weeklyArea');
+const loadingText = $('loadingText');
+const labOnly = $('labOnly');
+
+function populateSelect(sel, options, placeholder) {
+  sel.innerHTML = `<option value="">${placeholder}</option>` + options.map(o => `<option value="${o}">${o}</option>`).join('');
+}
+
+populateSelect(daySel, DAYS.map(d => d.substring(0,3)), 'Select day');
+daySel.addEventListener('change', updateResult);
+
+populateSelect(slotSel, SLOTS, 'Select slot');
+slotSel.addEventListener('change', updateResult);
+
+function getFilteredRooms() {
+  return labOnly.checked ? rooms.filter(r => r.endsWith('L')) : rooms;
+}
+
+function renderRooms() {
+  const filtered = getFilteredRooms();
+  const current = roomSel.value;
+  populateSelect(roomSel, filtered, 'Select room');
+  if (filtered.includes(current)) roomSel.value = current;
+  else roomSel.value = '';
+  updateBtns();
+}
+
+labOnly.addEventListener('change', () => { renderRooms(); updateResult(); });
+roomSel.addEventListener('change', () => { updateResult(); updateBtns(); });
+
+function updateBtns() {
+  const hasAll = daySel.value && roomSel.value && slotSel.value;
+  checkBtn.disabled = !hasAll;
+  weeklyBtn.disabled = !roomSel.value;
+}
+
+function updateResult() {
+  resultArea.innerHTML = '';
+  weeklyArea.innerHTML = '';
+  updateBtns();
+}
+
+checkBtn.addEventListener('click', () => {
+  const day = DAYS.find(d => d.startsWith(daySel.value));
+  const room = roomSel.value;
+  const slot = slotSel.value;
+  if (!day || !room || !slot) return;
+
+  const entry = data.find(e => e.day === day && e.room === room && e.slot === slot);
+  const free = !entry || (!entry.course && !entry.faculty);
+
+  if (free) {
+    resultArea.innerHTML = `<div class="result free"><div class="badge"><span class="status-dot free"></span>FREE</div><div class="meta">${day} &middot; ${room} &middot; ${slot}</div></div>`;
+  } else {
+    resultArea.innerHTML = `<div class="result occupied"><div class="badge"><span class="status-dot occupied"></span>OCCUPIED</div><div class="detail"><strong>${entry.course}</strong> taken by <strong>${entry.faculty}</strong></div><div class="meta">${day} &middot; ${room} &middot; ${slot}</div></div>`;
+  }
+  weeklyArea.innerHTML = '';
+});
+
+weeklyBtn.addEventListener('click', () => {
+  const room = roomSel.value;
+  if (!room) return;
+
+  let html = `<div class="schedule"><h2>Weekly Schedule &mdash; ${room}</h2><table><thead><tr><th>Day</th>`;
+  SLOTS.forEach(s => { html += `<th>${s}</th>`; });
+  html += `</tr></thead><tbody>`;
+
+  DAYS.forEach(day => {
+    html += `<tr><td>${day.substring(0,3)}</td>`;
+    SLOTS.forEach(slot => {
+      const entry = data.find(e => e.day === day && e.room === room && e.slot === slot);
+      if (entry && entry.course) {
+        html += `<td><div class="course-text">${entry.course}</div><div class="faculty-text">${entry.faculty}</div></td>`;
+      } else {
+        html += `<td><span class="free-text">FREE</span></td>`;
+      }
+    });
+    html += `</tr>`;
+  });
+
+  html += `</tbody></table></div>`;
+  weeklyArea.innerHTML = html;
+  resultArea.innerHTML = '';
+});
+
+fetch('data/routine.json')
+  .then(r => r.json())
+  .then(d => {
+    data = d;
+    rooms = [...new Set(d.map(e => e.room))].sort();
+    renderRooms();
+    loadingText.style.display = 'none';
+  })
+  .catch(() => {
+    loadingText.textContent = 'Failed to load routine data.';
+  });
+</script>
+</body>
+</html>
